@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color-scheme: dark;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-coal-950 text-slate-100 font-body antialiased tracking-tight;
+  }
+
+  ::selection {
+    @apply bg-brand-500/70 text-white;
+  }
+}
