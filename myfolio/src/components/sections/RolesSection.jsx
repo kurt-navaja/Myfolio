@@ -6,12 +6,12 @@ function RolesSection() {
     <section id="roles" className="mb-24">
       <div className="mb-10 flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
         <div>
-          <Tag>Multidisciplinary Expertise</Tag>
+          <Tag>Practical Experience</Tag>
           <h2 className="mt-4 font-display text-3xl font-semibold text-white sm:text-4xl">
-            Every role needed to ship thoughtful software.
+            Hands-on roles I rotate through to ship software.
           </h2>
           <p className="mt-3 max-w-2xl text-base text-slate-300">
-            I thrive where engineering, operations, people, and design intersect—making sure product goals turn into measurable outcomes.
+            I move between QA, development, support, delivery, and design so teams can count on clear handoffs and honest status updates.
           </p>
         </div>
       </div>

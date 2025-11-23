@@ -6,7 +6,7 @@ function ProjectsSection() {
     <section id="projects" className="mb-24">
       <div className="mb-10 flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
         <div>
-          <Tag>Selected Projects</Tag>
+          <Tag>Featured Projects</Tag>
           <h2 className="mt-4 font-display text-3xl font-semibold text-white sm:text-4xl">
             Work that blends quality, code, and design.
           </h2>

@@ -1,20 +1,19 @@
 export const profile = {
   name: 'Nav.dev',
   roleLabels: [
-    'QA Technical Specialist',
+    'QA Technical',
     'Software Developer',
-    'IT Support',
+    'IT Support Specialist',
     'Project Manager',
     'UI/UX Designer',
   ],
   resumeUrl: 'https://www.myfolio.ph/resume/I2ziM2yH8i',
-  toolbox: 'React · VSCode · Figma · GitHub Actions',
 }
 
 export const navLinks = [
   { label: 'Expertise', href: '#roles' },
   { label: 'Projects', href: '#projects' },
-  { label: 'Impact', href: '#initiatives' },
+  { label: 'Skills', href: '#skills' },
   { label: 'Contact', href: '#contact' },
 ]
 
@@ -23,7 +22,7 @@ export const hero = {
   headline:
     'Hi!, I\'m Kurt Bryan C. Navaja',
   description:
-    'I bring quality engineering, full-stack development, empathetic support, project leadership, and UI/UX design together so products launch faster and feel better for the people who use them.',
+    "I'm a hardworking generalist across QA, frontend, support, project coordination, and UX so teams ship features with fewer surprises and clearer handoffs.",
   ctas: {
     primary: { label: 'Explore Projects', href: '#projects' },
     secondary: { label: "Let's Talk", href: 'mailto:bryannavaja123@gmail.com' },
@@ -56,102 +55,105 @@ export const quickFacts = [
 export const roles = [
   {
     title: 'QA Technical',
-    headline: 'Builds confidence into every release.',
+    headline: 'Keeps release risk visible and managed.',
     description:
-      'Designs right-sized manual and automated testing strategies that keep cross-functional teams shipping with certainty.',
-    focus: ['Regression automation', 'API validation', 'Quality analytics'],
+      'Designs lean manual and automated checks, shares clear findings, and helps teams decide when software is ready.',
+    focus: ['API & UI regression suites', 'Test planning & execution', 'Quality dashboards & reporting'],
   },
   {
     title: 'Software Developer',
-    headline: 'Transforms ideas into resilient products.',
+    headline: 'Ships well-structured features on modern stacks.',
     description:
-      'Codes modern web applications with clean architecture, component systems, and performance-first thinking.',
-    focus: ['React & Vite', 'Type-safe APIs', 'CI/CD craftsmanship'],
+      'Builds React front ends and lightweight services, reviews pull requests, and keeps performance in mind.',
+    focus: ['React & Vite delivery', 'Reusable component design', 'CI/CD pipelines'],
   },
   {
-    title: 'IT Support',
-    headline: 'Keeps teams productive and systems reliable.',
+    title: 'IT Support Specialist',
+    headline: 'Keeps teammates productive day to day.',
     description:
-      'Resolves incidents quickly, automates recurring tasks, and communicates fixes in human language.',
-    focus: ['Knowledge base design', 'Scripting & automation', 'User advocacy'],
+      'Troubleshoots hardware and software issues, documents fixes in plain language, and scripts repeatable tasks.',
+    focus: ['Incident triage & follow-up', 'Knowledge base articles', 'Automation scripts'],
   },
   {
     title: 'Project Manager',
-    headline: 'Aligns people, scope, and delivery.',
+    headline: 'Helps teams agree on scope and next steps.',
     description:
-      'Facilitates collaborative planning, manages risk, and translates requirements into actionable roadmaps.',
-    focus: ['Agile ceremonies', 'Stakeholder alignment', 'Data-driven reporting'],
+      'Facilitates planning sessions, keeps tasks visible, and communicates progress with stakeholders.',
+    focus: ['Sprint planning & retros', 'Risk & dependency tracking', 'Status reporting'],
   },
   {
     title: 'UI/UX Designer',
-    headline: 'Shapes intuitive, inclusive product experiences.',
+    headline: 'Designs interfaces that are easy to learn.',
     description:
-      'Crafts design systems, rapid prototypes, and research-backed interfaces that feel effortless to use.',
-    focus: ['Design systems', 'User research', 'Interactive prototyping'],
+      'Maps user flows, iterates on Figma prototypes with feedback, and maintains shared design tokens.',
+    focus: ['Wireframes & prototypes', 'Usability feedback loops', 'Design system tokens'],
   },
 ]
 
 export const projects = [
   {
-    title: 'Quality Intelligence Hub',
+    title: 'Gradify',
     year: '2025',
-    role: 'QA Technical · Project Manager',
+    role: 'QA Technical · Developer',
     description:
-      'Unified QA dashboards, test automation health, and release-readiness scoring in a single command center.',
-    stack: ['Cypress', 'Playwright', 'Power BI', 'GitHub Actions'],
-    link: 'https://github.com/kurt-navaja',
-    linkLabel: 'Explore the approach',
+      'Gradify is an innovative web-based academic performance tracking system designed to streamline grade management for teachers and provide students with real-time feedback and insights.',
+    stack: ['ReactJs', 'Springboot', 'Java', 'GitHub Actions', 'PostgreSQL'],
+    link: 'https://gradify-three.vercel.app/',
+    linkLabel: 'Open application',
   },
   {
-    title: 'SupportOps CoPilot',
+    title: 'FitFlow',
+    year: '2025',
+    role: 'Software Developer · Project Manager',
+    description:
+      'FitFlow is a personalized fitness platform that securely manages users, generates custom workout and meal plans, tracks activity and progress, sends timely reminders, and adapts to individual preferences through comprehensive profile management.',
+    stack: ['ReactJs', 'Springboot', 'Java', 'MySQL Workbench', 'Tailwind CSS'],
+    link: 'https://fitflow0.netlify.app/login',
+    linkLabel: 'Open application',
+  },
+  {
+    title: 'BodyBoost',
     year: '2024',
-    role: 'Software Developer · IT Support',
+    role: 'UI/UX Designer · Software Developer · Project Manager' ,
     description:
-      'Self-service portal with AI assisted troubleshooting, ticket triage flows, and knowledge-base automation.',
-    stack: ['React', 'Supabase', 'FastAPI', 'Notion API'],
-    link: 'https://github.com/kurt-navaja',
-    linkLabel: 'View repository',
+      'BodyBoost is a fitness app that enables users to register securely, manage personal profiles, and receive personalized workout plans and calorie-based meal suggestions.',
+    stack: ['Figma', 'Python', 'HTML & CSS', 'JavaScript', 'MySQL XAMPP'],
+    link: 'https://github.com/kurt-navaja/BodyBoost_IM2.git',
+    linkLabel: 'View Repository',
   },
   {
-    title: 'Pulse Design System',
+    title: 'Creative Clarity',
     year: '2024',
-    role: 'UI/UX Designer · Software Developer',
+    role: 'UI/UX Designer · Full Stack Developer',
     description:
-      'Composable design system with themeable React components, accessibility guardrails, and handoff documentation.',
-    stack: ['Figma', 'Tailwind', 'Storybook', 'Chromatic'],
-    link: 'https://github.com/kurt-navaja',
-    linkLabel: 'See documentation',
-  },
-]
-
-export const initiatives = [
-  {
-    title: 'Release Rituals Upgrade',
-    timeline: '2025 · Capstone Sprint',
-    narrative:
-      'Led the definition of QA gates for a cross-functional feature squad, pairing exploratory testing with automated smoke runs.',
-    outcomes: ['Reduced bug slip-through by 35%', 'Introduced living documentation for regression suites', 'Embedded quality metrics into sprint reviews'],
-  },
-  {
-    title: 'Service Desk Modernization',
-    timeline: '2024 · Support Transformation',
-    narrative:
-      'Rebuilt the IT escalation workflow with customer-focused SLAs and streamlined knowledge capture across teams.',
-    outcomes: ['Cut resolution time by 28%', 'Automated onboarding & issue categorization scripts', 'Introduced empathy-driven support playbooks'],
-  },
-  {
-    title: 'Design-Led Delivery',
-    timeline: '2024 · Collaborative Studio',
-    narrative:
-      'Partnered with product stakeholders to prototype, validate, and ship a multi-role dashboard experience.',
-    outcomes: ['Validated UX with moderated testing loops', 'Established reusable UI tokens & typography scale', 'Aligned backlog with measurable user outcomes'],
+      'Creative Clarity is an academic organizer that helps users manage tasks, track courses, and monitor academic progress. It features secure user authentication, to-do lists with due dates, progress tracking, grade reporting with dashboards, and course-specific notes. The system also supports uploading and archiving images and searching for stored files, making academic organization easier and more efficient.',
+    stack: ['Figma', 'ReactJs', 'Springboot', 'Postman', 'MySQL Workbench'],
+    link: 'https://github.com/Ban-Coca/CreativeClarity.git',
+    linkLabel: 'View Repository',
   },
 ]
 
 export const skills = {
-  Engineering: ['JavaScript (ES2020+)', 'React & Vite', 'Node.js & Express', 'RESTful APIs', 'SQL & Supabase'],
-  'Quality & Delivery': ['Cypress & Playwright', 'Postman & API schemas', 'GitHub Actions CI', 'Test strategy & reporting', 'Requirements analysis'],
-  'Design & Collaboration': ['Figma & FigJam', 'Design systems thinking', 'Journey mapping', 'Jira · Notion · ClickUp', 'Workshop facilitation'],
+  Engineering: [
+    'React (Vite, Tailwind) delivery with reusable UI modules',
+    'Spring Boot REST API integration and schema collaboration',
+    'PostgreSQL/MySQL tuning drawn from Gradify and FitFlow builds',
+    'Git/GitHub workflows with branch discipline and code reviews',
+  ],
+  'Quality & Delivery': [
+    'Exploratory charters plus smoke automation for Gradify releases',
+    'Postman collections and API contract validation',
+    'GitHub Actions pipelines with QA gates and regression tracking',
+    'Risk-based test planning, execution, and release note prep',
+    'Sprint reviews and retros focused on measurable follow-through',
+  ],
+  'Design & Collaboration': [
+    'Figma prototypes wired to production tokens and typography scale',
+    'UX writing and moderated testing loops for Creative Clarity',
+    'Stakeholder workshops aligning backlog with user outcomes',
+    'Support playbooks, onboarding checklists, and knowledge bases',
+    'Spreadsheet/ClickUp routines keeping cross-functional work visible',
+  ],
 }
 
 export const contact = {

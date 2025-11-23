@@ -8,10 +8,10 @@ function SkillsSection() {
         <div>
           <Tag>Core Skills</Tag>
           <h2 className="mt-4 font-display text-3xl font-semibold text-white sm:text-4xl">
-            A toolbox built for modern product teams.
+            A hardworking toolbox built for modern product teams.
           </h2>
           <p className="mt-3 max-w-2xl text-base text-slate-300">
-            From technical fluency to facilitation, I adapt to the needs of the team while keeping users at the center.
+            Each skill comes from shipping Gradify, FitFlow, and Creative Clarity—balancing QA discipline, frontend craft, support empathy, and collaborative follow-through.
           </p>
         </div>
       </div>
