@@ -3,6 +3,7 @@ import Footer from '../components/Footer'
 import HeroSection from '../components/sections/Hero'
 import RolesSection from '../components/sections/RolesSection'
 import ProjectsSection from '../components/sections/ProjectsSection'
+import DesignsSection from '../components/sections/DesignsSection'
 import SkillsSection from '../components/sections/SkillsSection'
 import ContactSection from '../components/sections/ContactSection'
 
@@ -18,6 +19,7 @@ function HomePage() {
         <HeroSection />
         <RolesSection />
         <ProjectsSection />
+        <DesignsSection />
         <SkillsSection />
         <ContactSection />
         <Footer />

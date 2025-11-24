@@ -13,6 +13,7 @@ export const profile = {
 export const navLinks = [
   { label: 'Expertise', href: '#roles' },
   { label: 'Projects', href: '#projects' },
+  { label: 'Designs', href: '#designs' },
   { label: 'Skills', href: '#skills' },
   { label: 'Contact', href: '#contact' },
 ]
@@ -153,6 +154,36 @@ export const skills = {
     'Stakeholder workshops aligning backlog with user outcomes',
     'Support playbooks, onboarding checklists, and knowledge bases',
     'Spreadsheet/ClickUp routines keeping cross-functional work visible',
+  ],
+}
+
+export const designShowcase = {
+  tag: 'UI/UX Designs',
+  headline: 'My UI/UX Design Compilation Ready for Handoff.',
+  description:
+    'My UI/UX design library featuring previous work across Academic and Fitness systems, built with functional layouts and smooth user experiences.',
+  cards: [
+    {
+      title: 'AlgoAcademy',
+      content:
+        'AlgoAcademy is a streamlined academic organizer and code compiler that helps students and developers stay productive by combining smart scheduling, course and assignment tracking, and an integrated coding environment all in one place.',
+      buttonLabel: 'View Designs',
+      href: 'https://drive.google.com/drive/folders/12_Vr75DleZUyItjnowNVdmkNZrbKYpGx?usp=sharing',
+    },
+    {
+      title: 'FitFlow',
+      content:
+        'FitFlow is a personalized fitness platform that securely manages users, generates custom workout and meal plans, tracks activity and progress, sends timely reminders, and adapts to individual preferences through comprehensive profile management.',
+      buttonLabel: 'View Designs',
+      href: 'https://drive.google.com/drive/folders/1MEPJXgzA0KR71TiVV9ppIBRGI_fqJkD7?usp=sharing',
+    },
+    {
+      title: 'Prototype',
+      content:
+        'Review a clickable prototype covering onboarding, navigation, and interaction patterns for stakeholder walkthroughs.',
+      buttonLabel: 'View Prototype',
+      href: 'https://www.figma.com/proto/At1EWF6Vjv4AjBFjQreI8Q/FitFlow?node-id=132-43&starting-point-node-id=132%3A43&t=fvth9VuyACSYHnia-1',
+    },
   ],
 }
 
