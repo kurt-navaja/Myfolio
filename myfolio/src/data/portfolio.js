@@ -22,7 +22,7 @@ export const hero = {
   headline:
     'Hi!, I\'m Kurt Bryan C. Navaja',
   description:
-    "I'm a hardworking generalist across QA, frontend, support, project coordination, and UX so teams ship features with fewer surprises and clearer handoffs.",
+    "I thrive in roles that blend development, quality assurance, design, and support. Whether writing code, improving user flows, testing edge cases, or aligning project tasks, I keep teams moving forward with fewer blockers and a clearer path from idea to release.",
   ctas: {
     primary: { label: 'Explore Projects', href: '#projects' },
     secondary: { label: "Let's Talk", href: 'mailto:bryannavaja123@gmail.com' },
