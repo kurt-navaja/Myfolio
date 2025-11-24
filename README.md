@@ -75,7 +75,6 @@ Hi, I'm Kurt Bryan C. Navaja!
 <p align="center">
 	<a href="https://github.com/kurt-navaja">
 	<img width="49.5%" src="https://github-readme-stats.vercel.app/api?username=kurt-navaja&amp;show_icons=true" alt="kurt-navaja">
-	<img width="49.5%" src="https://github-readme-streak-stats.herokuapp.com/?user=kurt-navaja" alt="kurt-navaja">
 	</a>
 	<br>
 </p>
