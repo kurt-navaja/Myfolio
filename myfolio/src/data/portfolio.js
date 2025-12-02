@@ -7,7 +7,7 @@ export const profile = {
     'Project Manager',
     'UI/UX Designer',
   ],
-  resumeUrl: 'https://www.myfolio.ph/resume/I2ziM2yH8i',
+  resumeUrl: 'https://www.myfolio.ph/resume/uOcWBYD6dV',
 }
 
 export const navLinks = [
