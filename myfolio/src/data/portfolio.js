@@ -19,7 +19,7 @@ export const navLinks = [
 ]
 
 export const hero = {
-  badge: 'Ready for Internship · Open to Collaborate',
+  badge: 'Ready for Employment · Open to Collaborate',
   headline:
     'Hi!, I\'m Kurt Bryan C. Navaja',
   description:

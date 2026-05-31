@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from 'react'
 import { profile, navLinks } from '../data/portfolio'
-import profileImage from '../assets/profile.png'
+import profileImage from '../assets/profile1.png'
 
 function Header() {
   const labels = useMemo(() => {

@@ -1,4 +1,4 @@
-import profileImage from '../../assets/profile.png'
+import profileImage from '../../assets/profile1.png'
 import { hero, quickFacts } from '../../data/portfolio'
 
 function HeroSection() {
